@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Architecture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #232f3e;
+            text-align: center;
+        }
+        .component {
+            border-left: 5px solid #ff9900;
+            background: #fafafa;
+            margin: 10px 0;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>System Architecture</h1>
+        <p>This page describes the infrastructure setup for our application.</p>
+        
+        <div class="component">
+            <h3>Web Server (EC2)</h3>
+            <p>Runs Nginx to serve static content and acts as a reverse proxy for the application server.</p>
+        </div>
+
+        <div class="component">
+            <h3>Application Layer</h3>
+            <p>Hosted on AWS EC2 instances within a public subnet for this demonstration.</p>
+        </div>
+
+        <div class="component">
+            <h3>Networking</h3>
+            <p>Configured with a VPC, Internet Gateway, and specific Security Group rules to allow HTTP (80) and SSH (22) traffic.</p>
+        </div>
+    </div>
+</body>
+</html>
