@@ -2,10 +2,11 @@
 ### BUG QUERY
 - The present bug is to find why file is not added on github when i pushed.
 
----
 
 ### BUG FIXED
-- COZ, I DIDN'T COMMIT AFTER **RESET** IT.
+- Because I didn't commit after **RESET** it.
 
-> HAPPY CODING 😁
+
+
+##### HAPPY CODING 😁
 
